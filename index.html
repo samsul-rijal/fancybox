@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Latihan Fancybox</title>
+
+    <!-- import style fancybox -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+  </head>
+  <body>
+
+    <!-- Untuk single image -->
+    <a data-fancybox data-type="image" href="my-img.jpg">
+      <img src="my-img.jpg" style="width: 150px; height: 150px" alt="" />
+    </a>
+
+    <!-- Untuk gallery image -->
+    <a data-fancybox="gallery" href="https://lipsum.app/id/61/1600x1200">
+      <img class="rounded" src="https://lipsum.app/id/61/200x150" />
+    </a>
+
+    <a data-fancybox="gallery" href="https://lipsum.app/id/62/1600x1200">
+      <img class="rounded" src="https://lipsum.app/id/62/200x150" />
+    </a>
+
+    <!-- import js fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script> 
+  </body>
+</html>
